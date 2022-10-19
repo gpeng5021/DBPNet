@@ -1,1 +1,1 @@
-The results folder contains generated data of DBONet test codes
+The results folder contains generated data of testing codes.
