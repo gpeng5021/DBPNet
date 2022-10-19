@@ -1,1 +1,1 @@
-存放测试代码生成的图片
+The results folder contains generated data of DBONet test codes
