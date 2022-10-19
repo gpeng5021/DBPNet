@@ -36,10 +36,10 @@ DBPNet
 
 Required environment
 
-1. Python 3.6.13
-2. torch 1.10.0
-3. numpy 1.19.2
-4. cuda 11.3
+1. Python   3.6.13
+2. torch    1.10.0
+3. numpy    1.19.2
+4. cuda     11.3
 
 Install the environment with following commands.
 
