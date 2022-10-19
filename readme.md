@@ -7,7 +7,7 @@ The project folder for this section should be placed in the following structure:
 ```
 DBPNet
 ├── RSM	#Folder of RSM code
-├── data	#training dataset and testing dataset
+├── dataset	#training dataset and testing dataset
 │   ├── test 
 │   ├── train 
 │   ├── train300
