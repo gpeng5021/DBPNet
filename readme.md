@@ -97,11 +97,11 @@ method of making training and testing datasets
 (1)Crop ground truth images and enhance the data of the cropped images
 
 ```
-python crop_pic.py  # obtain randomly-cropped images from ground truth. Please find the cropped images in folder train300_crop.
+python crop_pic.py      # obtain randomly-cropped images from ground truth. Please find the cropped images in folder train300_crop.
 python data_argument.py # enhance data of the cropped images. Please find the cropped images in respectively folder train300_crop_ro, folder train300_crop_ho, folder train300_crop_ve and folder train300_crop_hv.
 mkdir total_crop_no_border
-#Please place all images in folder train300_crop, folder train300_crop_ro, folder train300_crop_ho, folder train300_crop_ve and folder train300_crop_hv to folder total_crop_no_border.
-python make_border.py # obtain cropped images of the same size
+# Please place all images in folder train300_crop, folder train300_crop_ro, folder train300_crop_ho, folder train300_crop_ve and folder train300_crop_hv to folder total_crop_no_border.
+python make_border.py   # obtain cropped images of the same size
 python create_data.py   # downsample the cropped pictures at scale factors
 ```
 
