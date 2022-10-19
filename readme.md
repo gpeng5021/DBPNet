@@ -6,27 +6,27 @@ The project folder for this section should be placed in the following structure:
 
 ```
 DBPNet
-©À©¤©¤ dataset	#training dataset and testing dataset
-©¦   ©À©¤©¤ test 
-©¦   ©À©¤©¤ train 
-©À©¤©¤ data	
-©À©¤©¤ log		
-©À©¤©¤ loss	
-©À©¤©¤ model	
-©À©¤©¤ models	
-©À©¤©¤ train_x2_add.py 	
-©À©¤©¤ train_x4_add.py 	
-©À©¤©¤ test_dbpnet_x2.py	
-©À©¤©¤ test_dbpnet_x2.py	
-©À©¤©¤ calc_psnr_ssim_text330.m	#MATLAB code for calculating PSNR and SSIM
-©À©¤©¤ readme.md
-©À©¤©¤ requirements.txt
-©À©¤©¤ RSM	#Folder of RSM code
-©À©¤©¤ crop_pic.py	
-©À©¤©¤ make_border.py
-©À©¤©¤ data_argument.py
-©À©¤©¤ create_data.py
-©¦   
+â”œâ”€â”€ dataset	#training dataset and testing dataset
+â”‚   â”œâ”€â”€ test 
+â”‚   â”œâ”€â”€ train 
+â”œâ”€â”€ data	
+â”œâ”€â”€ log		
+â”œâ”€â”€ loss	
+â”œâ”€â”€ model	
+â”œâ”€â”€ models	
+â”œâ”€â”€ train_x2_add.py 	
+â”œâ”€â”€ train_x4_add.py 	
+â”œâ”€â”€ test_dbpnet_x2.py	
+â”œâ”€â”€ test_dbpnet_x2.py	
+â”œâ”€â”€ calc_psnr_ssim_text330.m	#MATLAB code for calculating PSNR and SSIM
+â”œâ”€â”€ readme.md
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ RSM	#Folder of RSM code
+â”œâ”€â”€ crop_pic.py	
+â”œâ”€â”€ make_border.py
+â”œâ”€â”€ data_argument.py
+â”œâ”€â”€ create_data.py
+â”‚   
 ```
 
 ## Requirements
@@ -54,42 +54,42 @@ pip install -r requirements.txt
 training and testing datatset. Please place the downloaded dataset folder in the path of this project [DBPNet / dataset]
 .
 
-(1)¡°train¡± folder
+(1)â€œtrainâ€ folder
 
 The total_crop folder contains 300 cropped ground truth images in Text330 datastet.
 
-The total_crop_x2 folder contains images processed with ¡Á4 downsampling.
+The total_crop_x2 folder contains images processed with Ã—4 downsampling.
 
-The total_crop_x4 folder contains images processed with ¡Á2 downsampling.
+The total_crop_x4 folder contains images processed with Ã—2 downsampling.
 
 The segment folder contains images processed with RSM segmentation.
 
 In these images, seg_img_hr and seg_text_hr are images of respectively plain images and plain texts with RSM
 segmentation from total_crop folder.
 
-Seg_img_¡Á2 and seg_text_¡Á2 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with ¡Á4
+Seg_img_Ã—2 and seg_text_Ã—2 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with Ã—4
 downsampling.
 
-Seg_img_¡Á4 and seg_text_¡Á4 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with ¡Á2
+Seg_img_Ã—4 and seg_text_Ã—4 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with Ã—2
 downsampling.
 
-(2) ¡°test¡± folder
+(2) â€œtestâ€ folder
 
 The total_crop folder contains 30 ground truth images in Text330 dataset.
 
-The total_crop_x2 folder contains images from total_crop folder processed with ¡Á4 downsampling.
+The total_crop_x2 folder contains images from total_crop folder processed with Ã—4 downsampling.
 
-The total_crop_x4 folder contains images from total_crop folder processed with ¡Á2 downsampling.
+The total_crop_x4 folder contains images from total_crop folder processed with Ã—2 downsampling.
 
 The segment folder contains images processed with RSM segmentation.
 
 In these images, seg_img_hr and seg_text_hr are images of respectively plain images and plain texts with RSM
 segmentation from total_crop folder.
 
-Seg_img_¡Á2 and seg_text_¡Á2 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with
+Seg_img_Ã—2 and seg_text_Ã—2 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with
 RSM.
 
-Seg_img_¡Á4 and seg_text_¡Á4 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with
+Seg_img_Ã—4 and seg_text_Ã—4 are images of respectively plain images and plain texts of seg_img_hr and seg_text_hr with
 RSM.
 
 method of making training and testing datasets
@@ -97,10 +97,10 @@ method of making training and testing datasets
 (1)Crop ground truth images and enhance the data of the cropped images
 
 ```
-python crop_pic.py  # obtain randomly-cropped images from ground truth,Éú³ÉµÄÍ¼Æ¬±£´æÔÚtrain300_crop
-python data_argument.py # enhance data of the cropped images£¬Éú³ÉµÄÍ¼Æ¬·Ö±ğ±£´æÔÚtrain300_crop_ro,train300_crop_ho,train300_crop_ve,train300_crop_hv
+python crop_pic.py  # obtain randomly-cropped images from ground truth,ç”Ÿæˆçš„å›¾ç‰‡ä¿å­˜åœ¨train300_crop
+python data_argument.py # enhance data of the cropped imagesï¼Œç”Ÿæˆçš„å›¾ç‰‡åˆ†åˆ«ä¿å­˜åœ¨train300_crop_ro,train300_crop_ho,train300_crop_ve,train300_crop_hv
 mkdir total_crop_no_border
-½«train300_crop,train300_crop_ro,train300_crop_ho,train300_crop_ve,train300_crop_hvÎÄ¼ş¼ĞÏÂµÄÈ«²¿Í¼Æ¬·Åµ½total_crop_no_borderÎÄ¼ş¼ĞÏÂ
+å°†train300_crop,train300_crop_ro,train300_crop_ho,train300_crop_ve,train300_crop_hvæ–‡ä»¶å¤¹ä¸‹çš„å…¨éƒ¨å›¾ç‰‡æ”¾åˆ°total_crop_no_borderæ–‡ä»¶å¤¹ä¸‹
 python make_border.py # obtain cropped images of the same size
 python create_data.py   # downsample the cropped pictures at scale factors
 ```
@@ -116,22 +116,22 @@ python create_seg_data_origin.py
 
 ## train
 
-1.Run following commands to train
+Run following commands to train
 
 ```
 python train_x2_add.py
 python train_x4_add.py
-NOTE£ºPlease find trained models in DBPNet/data/trained_models/.
+NOTEï¼šPlease find trained models in DBPNet/data/trained_models/.
 ```
 
 ## test
 
-1.The models folder contains trained models 2.Run following commands to test and verify:
+The models folder contains trained models 2.Run following commands to test and verify:
 
 ```
 python test_dbpnet_x2.py  
 python test_dbpnet_x4.py  
 Run the code calc_psnr_ssim_text330.m from https://github.com/t2mhanh/LapSRN_TextImages_git  with MATLAB  to verify.
-NOTE£ºPlease find testing results in DBPNet/data/results/.
+NOTEï¼šPlease find testing results in DBPNet/data/results/.
 ```
 
