@@ -100,7 +100,7 @@ method of making training and testing datasets
 (1)Crop ground truth images and enhance the data of the cropped images
 
 ```
-python crop_pic.py  # obtain randomly-cropped images from ground truth,生成的图片保存在train300_crop
+python crop_pic.py  # obtain randomly-cropped images from ground truth.生成的图片保存在train300_crop
 python data_argument.py # enhance data of the cropped images，生成的图片分别保存在train300_crop_ro,train300_crop_ho,train300_crop_ve,train300_crop_hv
 mkdir total_crop_no_border
 将train300_crop,train300_crop_ro,train300_crop_ho,train300_crop_ve,train300_crop_hv文件夹下的全部图片放到total_crop_no_border文件夹下
@@ -119,7 +119,7 @@ python create_seg_data_origin.py
 
 ## train
 
-1.Run following commands to train
+Run following commands to train
 
 ```
 python train_x2_add.py
@@ -129,7 +129,7 @@ NOTE：Please find trained models in DBPNet/data/trained_models/.
 
 ## test
 
-1.The models folder contains trained models 2.Run following commands to test and verify:
+The models folder contains trained models 2.Run following commands to test and verify:
 
 ```
 python test_dbpnet_x2.py  
