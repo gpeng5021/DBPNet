@@ -1,1 +1,1 @@
-存放Text330数据集中的300张训练集图片
+The train300 folder contains 300 training dataset images in Text330 dataset.
