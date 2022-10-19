@@ -1,1 +1,1 @@
-存放训练代码保存的模型文件
+The trained_models folder contains generated models of training codes.
