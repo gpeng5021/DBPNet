@@ -9,12 +9,12 @@ DBPNet
 ├── RSM	#Folder of RSM code
 ├── data
 ├── dataset	#training dataset and testing dataset
+│   ├── results
+│   ├── total_crop_no_border
+│   ├── train300
+│   ├── trained_models
 │   ├── test 
 │   ├── train 
-│   ├── train300
-│   ├── results
-│   ├── trained_models
-│   ├── total_crop_no_border
 ├── loss	
 ├── model	
 ├── models	
