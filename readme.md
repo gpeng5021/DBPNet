@@ -7,12 +7,7 @@ The project folder for this section should be placed in the following structure:
 ```
 DBPNet
 ├── RSM	#Folder of RSM code
-├── dataset	#training dataset and testing dataset
-│   ├── test 
-│   ├── train 
-│   ├── train300
-│   ├── results
-│   ├── trained_models
+├── data
 ├── loss	
 ├── model	
 ├── models	
@@ -27,8 +22,13 @@ DBPNet
 ├── test_dbpnet_x2.py	
 ├── test_dbpnet_x2.py	
 ├── train_x2_add.py 	
-├── train_x4_add.py 	
-├── log		  
+├── train_x4_add.py 	  
+├── dataset	#training dataset and testing dataset
+│   ├── test 
+│   ├── train 
+│   ├── train300
+│   ├── results
+│   ├── trained_models
 ```
 
 ## Requirements
