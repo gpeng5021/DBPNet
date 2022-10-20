@@ -1,2 +1,2 @@
-Download craft_mlt_25k.pth from https://pan.baidu.com/s/1hCt0uAoQBi8hmu8Sh4r3pA woth code fxcb.
+Download craft_mlt_25k.pth from XX woth code XX.
 Place the downloaded file into the current folder.
