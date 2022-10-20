@@ -129,7 +129,7 @@ NOTE：Please find trained models in DBPNet/data/trained_models/.
 
 ## test
 
-The models folder contains trained models 2.Run following commands to test and verify:
+Run following commands to test and verify:
 
 ```
 python test_dbpnet_x2.py  
