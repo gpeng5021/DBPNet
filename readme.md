@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 1.Download the original Text330 datastet from https://github.com/t2mhanh/LapSRN_TextImages_git
 
-2.Download the cropped Text330 datastet from https://pan.baidu.com/s/1-EN1nLSX6nX0OifrHMEcEw with code ys8l. This is our
+2.Download the cropped Text330 datastet from https://pan.baidu.com/s/1HWcMUxNKTV4MLWNTP4P60w  with code tgu4. This is our
 training and testing datatset. Please place the downloaded dataset folder in the path of this project [DBPNet / dataset]
 .
 
