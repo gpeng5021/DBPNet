@@ -27,7 +27,7 @@ DBPNet
 ├── readme.md
 ├── requirements.txt
 ├── test_dbpnet_x2.py	
-├── test_dbpnet_x2.py	
+├── test_dbpnet_x4.py	
 ├── train_x2_add.py 	
 ├── train_x4_add.py 	  
 ```
